@@ -1,15 +1,5 @@
 import React from 'react'
 import styles from  './Header.module.css';
-/**
- * Existem 5 maneiras diferentes de utilizar css no React:
- * 1. CSS puro (não recomendado) - Ex. arquivo.css
- * 2. CSS Modules - Ex. arquivo.module.css
- * 3. Sass
- * 4. Styled Components - Ex. arquivo.tsx
- * 5. Emotion - pode usar a função css ou o componente styled
- * 
- * A melhor é a que o seu time utiliza.
- */
 import { css} from '@emotion/css';
 import styled from '@emotion/styled';
 import Link from 'next/link';
